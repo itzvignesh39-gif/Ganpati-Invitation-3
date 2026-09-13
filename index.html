@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="mr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="theme-color" content="#6a3514">
+  <meta name="description" content="समाल परिवार - श्री गणेशोत्सव २०२६">
+  <title>समाल परिवार | श्री गणेशोत्सव २०२६</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Yatra+One&family=Tiro+Devanagari+Marathi:ital@0;1&family=Mukta:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css?v=1">
+</head>
+
+<body class="intro-lock">
+
+  <!-- GOLD DUST -->
+  <div class="gold-dust-layer" id="goldDustLayer" aria-hidden="true"></div>
+
+  <!-- OPTIONAL BACKGROUND MUSIC -->
+  <audio id="bgMusic" loop preload="auto">
+    <source src="music.mp3" type="audio/mpeg">
+  </audio>
+
+  <button id="musicToggle" class="music-toggle" type="button" aria-label="संगीत सुरू किंवा बंद करा">
+    <span class="music-icon" id="musicIcon">♪</span>
+    <span class="music-label" id="musicLabel">संगीत बंद</span>
+  </button>
+
+  <!-- BACKGROUND -->
+  <div class="background" aria-hidden="true">
+    <img src="background.png?v=1" class="temple-bg-image" alt="">
+    <div class="temple-overlay"></div>
+    <div class="ambient-orb orb-one"></div>
+    <div class="ambient-orb orb-two"></div>
+  </div>
+
+  <!-- HANGING BELLS -->
+  <div class="real-bells-layer" aria-hidden="true">
+    <div class="real-bell bell-left"><img src="temple-bell.png?v=1" alt=""></div>
+    <div class="real-bell bell-right"><img src="temple-bell.png?v=1" alt=""></div>
+  </div>
+
+  <!-- OPENING -->
+  <div class="opening-gate" id="openingGate">
+    <div class="glass-door door-left"><span class="door-shine"></span></div>
+    <div class="glass-door door-right"><span class="door-shine"></span></div>
+
+    <div class="opening-content">
+      <p class="opening-mantra">॥ श्री गणेशाय नमः ॥</p>
+
+      <p class="opening-message">
+        मंगलमूर्ती मोरया!<br>
+        आपल्या लाडक्या बाप्पाच्या मंगल आगमनाचा आनंद<br>
+        आपल्या सोबत साजरा करण्यासाठी हे सस्नेह निमंत्रण.
+      </p>
+
+      <button class="seal-button" id="openInvitation" type="button" aria-label="निमंत्रण उघडा">
+        <span class="seal-halo"></span>
+        <img src="ancient-seal.png?v=1" class="seal-image" alt="बाप्पाचे आगमन">
+      </button>
+
+      <p class="opening-family">समाल परिवार</p>
+    </div>
+  </div>
+
+  <main id="invitation">
+
+    <!-- PAGE 1 -->
+    <section class="page hero-page" id="page1">
+      <div class="glass-card hero-card reveal">
+        <p class="kicker">॥ शुभ मंगलमय श्री गणेशोत्सव ॥</p>
+
+        <div class="ganpati-wrap depth-layer">
+          <span class="ganpati-aura"></span>
+          <img src="ganpati.png?v=1" alt="श्री गणेश" class="ganpati-image">
+        </div>
+
+        <h1>समाल परिवार</h1>
+        <p class="hero-subtitle">आपणास सहर्ष आमंत्रित करीत आहे</p>
+
+        <div class="hero-badges">
+          <div class="badge">
+            <small>आगमन</small>
+            <strong>१४ सप्टेंबर २०२६</strong>
+          </div>
+          <div class="badge">
+            <small>उत्सव</small>
+            <strong>५ दिवस</strong>
+          </div>
+        </div>
+
+        <p class="invite-copy">
+          दरवर्षीप्रमाणे यंदाही आमच्या घरी लाडक्या बाप्पाचे
+          <strong>५ दिवसांसाठी मंगलमय आगमन</strong> होत आहे.
+          या पवित्र प्रसंगी आपण कुटुंबियांसह आवर्जून उपस्थित राहून
+          श्रींचे दर्शन, आरती व आशीर्वादाचा लाभ घ्यावा,
+          ही <strong>समाल परिवाराची</strong> मनःपूर्वक विनंती.
+        </p>
+      </div>
+
+      <button class="scroll-cue" data-next="#page2" aria-label="पुढील पान">
+        <span>Scroll Down</span><b>⌄</b>
+      </button>
+    </section>
+
+    <!-- PAGE 2 -->
+    <section class="page journey-page" id="page2">
+      <div class="glass-card journey-card reveal">
+        <p class="kicker">भक्तीचा मंगल प्रवास</p>
+        <h2>बाप्पासोबत पाच मंगल दिवस</h2>
+        <p class="section-intro">आनंद • आरती • दर्शन • प्रसाद • आशीर्वाद</p>
+
+        <div class="festival-chain">
+          <div class="chain-line"></div>
+
+          <article class="chain-item left">
+            <span class="chain-node">✦</span>
+            <div class="chain-box">
+              <small>१४ सप्टेंबर २०२६</small>
+              <strong>श्रींचे आगमन</strong>
+              <p>बाप्पाचे मंगल स्वागत व स्थापना</p>
+            </div>
+          </article>
+
+          <article class="chain-item right">
+            <span class="chain-node">✦</span>
+            <div class="chain-box">
+              <small>दररोज</small>
+              <strong>आरती</strong>
+              <p>भक्तिमय आरतीत सहभागी व्हा</p>
+            </div>
+          </article>
+
+          <article class="chain-item left">
+            <span class="chain-node">✦</span>
+            <div class="chain-box">
+              <small>उत्सवादरम्यान</small>
+              <strong>मंगल दर्शन</strong>
+              <p>श्रींच्या दर्शनाचा व आशीर्वादाचा लाभ घ्या</p>
+            </div>
+          </article>
+
+          <article class="chain-item right">
+            <span class="chain-node final-node">✦</span>
+            <div class="chain-box special">
+              <small>पाचही दिवस</small>
+              <strong>भक्तिमय सोहळा</strong>
+              <p>परिवारासोबत बाप्पाच्या सान्निध्यात मंगल क्षण</p>
+            </div>
+          </article>
+        </div>
+      </div>
+
+      <button class="scroll-cue" data-next="#page3" aria-label="पुढील पान">
+        <span>Scroll Down</span><b>⌄</b>
+      </button>
+    </section>
+
+    <!-- PAGE 3 -->
+    <section class="page program-page" id="page3">
+      <div class="glass-card reveal">
+        <p class="kicker">भक्ती • आनंद • परिवार</p>
+        <h2>श्रींच्या चरणी पाच मंगल दिवस</h2>
+
+        <div class="program-grid">
+          <div class="program-tile">
+            <span class="program-icon">ॐ</span>
+            <h3>मंगल दर्शन</h3>
+            <p>बाप्पाच्या दर्शनासाठी आपले मनःपूर्वक स्वागत.</p>
+          </div>
+
+          <div class="program-tile">
+            <span class="program-icon">🪔</span>
+            <h3>आरती</h3>
+            <p>आरतीत सहभागी होऊन श्रींचा मंगल आशीर्वाद घ्या.</p>
+          </div>
+
+          <div class="program-tile">
+            <span class="program-icon">🌺</span>
+            <h3>प्रसाद</h3>
+            <p>श्रींच्या प्रसादाचा लाभ घेऊन उत्सवाचा आनंद वाढवा.</p>
+          </div>
+
+          <div class="program-tile">
+            <span class="program-icon">🙏</span>
+            <h3>आशीर्वाद</h3>
+            <p>विघ्नहर्त्याची कृपा आपल्या परिवारावर सदैव राहो.</p>
+          </div>
+        </div>
+
+        <div class="blessing">
+          “श्री गणरायाच्या कृपेने आपल्या जीवनात सुख, समृद्धी, आरोग्य आणि मंगलता नांदो.”
+        </div>
+      </div>
+
+      <button class="scroll-cue" data-next="#page4" aria-label="पुढील पान">
+        <span>Scroll Down</span><b>⌄</b>
+      </button>
+    </section>
+
+    <!-- PAGE 4 -->
+    <section class="page map-page" id="page4">
+      <div class="glass-card map-card reveal">
+        <p class="kicker">आपले स्वागत आहे</p>
+        <h2>आमचे निवासस्थान</h2>
+
+        <div class="map-frame">
+          <iframe
+            title="समाल परिवार - Google Map"
+            src="https://www.google.com/maps?q=Vadlakonda%20Niwas%2C%20Near%20Darshan%20Hotel%2C%20Padma%20Nagar%2C%20Bhiwandi%2C%20Maharashtra&output=embed"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            allowfullscreen>
+          </iframe>
+        </div>
+
+        <div class="address-card">
+          <span class="map-pin">⌖</span>
+          <div>
+            <strong>वडलकोंडा निवास</strong>
+            <p>पहिला मजला, दर्शन हॉटेल जवळ,<br>पद्मा नगर, भिवंडी</p>
+          </div>
+        </div>
+
+        <div class="contact-card">
+          <small>संपर्क</small>
+          <a href="tel:+917709332831">77093 32831</a>
+        </div>
+
+        <a class="primary-button"
+           href="https://maps.app.goo.gl/kPWk9JPtHyajsJsg8?g_st=aw"
+           target="_blank" rel="noopener noreferrer">
+          Google Maps मध्ये उघडा
+        </a>
+      </div>
+
+      <button class="scroll-cue" data-next="#page5" aria-label="पुढील पान">
+        <span>Scroll Down</span><b>⌄</b>
+      </button>
+    </section>
+
+    <!-- PAGE 5 -->
+    <section class="page final-page" id="page5">
+      <div class="glass-card final-card reveal">
+        <div class="final-om">ॐ</div>
+        <p class="kicker">॥ मंगलमूर्ती मोरया ॥</p>
+        <h2>गणपती बाप्पा मोरया!</h2>
+
+        <p class="final-copy">
+          आपल्या उपस्थितीने आमच्या गणेशोत्सवाचा आनंद आणखी द्विगुणित होईल.
+          श्री गणरायाचे दर्शन घेऊन या मंगल सोहळ्याची शोभा वाढवावी,
+          ही मनापासून विनंती.
+        </p>
+
+        <p class="family-sign">— समाल परिवार —</p>
+
+        <button class="primary-button share-button" id="shareButton" type="button">
+          निमंत्रण शेअर करा
+        </button>
+      </div>
+
+      <button class="scroll-cue back-top" data-next="#page1" aria-label="पुन्हा सुरुवात">
+        <span>पुन्हा सुरुवात</span><b>⌃</b>
+      </button>
+    </section>
+
+  </main>
+
+  <script src="script.js?v=1"></script>
+</body>
+</html>
